@@ -24,11 +24,7 @@ function huyremy
   ############### HELP ###############
   $Help = "
 
-This script attempts to implement the features of netcat in a powershell
-script. It also contains extra features such as built-in relays, execute
-powershell, and a dnscat2 client.
-
-Usage: powercat [-c or -l] [-p port] [options]
+Usage: huyremy [-c or -l] [-p port] [options]
 
   -c  <ip>        Client Mode. Provide the IP of the system you wish to connect to.
                   If you are using -dns, specify the DNS Server to send queries to.
