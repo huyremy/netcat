@@ -1,2 +1,2 @@
-PNG là một file ảnh nhưng mà cái ảnh này nó buồn cười cực kỳ, ấn vào thử mà xem
-huyremy.exe cũng buồn cười, ấn vào thử xem thì biết.
+PNG là một file ảnh nhưng mà cái anhcrs.png này là một virus. <br>
+huyremy.exe thì không phải virus.
