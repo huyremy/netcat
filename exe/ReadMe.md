@@ -1,3 +1,3 @@
-PNG là một file ảnh nhưng mà cái .png này là một virus. <br>
+huyremy.exe
 <br>
-huyremy.exe thì không phải virus.
+Liên hệ huynq@isi.com.vn để cập nhật phiên bản mới. (Bảo mật)
