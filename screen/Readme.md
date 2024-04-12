@@ -1,1 +1,1 @@
-Cái này là để xem user đang làm gì.
+Cái này là để xem người ta đang làm gì.
