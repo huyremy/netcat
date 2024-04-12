@@ -6,5 +6,6 @@ Cần thay đổi IP cụ thể vui lòng liên hệ huynq@isi.com.vn <br>
 --------
 HuyRemy
 --------
-![image](https://github.com/huyremy/netcat/assets/2125897/d42686c2-08e4-4f58-933c-7d91b992a9e8)
+![image](https://github.com/huyremy/netcat/assets/2125897/33324530-d293-457a-9e65-403e9a993a80)
+
 
