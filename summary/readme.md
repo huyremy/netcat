@@ -2,4 +2,5 @@ Hacking là một lĩnh vực rộng tuy nhiên để bắt đầu ta cần nắ
 -----
 Nguyên tắc của mèo là dấu cứt nên trong bài giảng không có step cuối cùng.
 -----
-HuyRemy
+HuyRemy - huynq@isi.com.vn
+-----
