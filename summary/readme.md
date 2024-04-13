@@ -2,5 +2,8 @@ Hacking là một lĩnh vực sâu mà rộng trong bộ môn khoa học máy t�
 -----
 Nguyên tắc của mèo là dấu cứt nên trong bài giảng không có step cuối cùng.
 -----
+R.I.P: Pvoil and VNDirect
+-----
 HuyRemy - huynq@isi.com.vn
 -----
+
