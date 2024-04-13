@@ -32,8 +32,8 @@ def generate_header(binary_filename, output_filename):
 
 if __name__ == "__main__":
 
-    bin_filename = r"../bin/shell_generator.exe"
-    output_filename = r"../bin/shellcode.h";
+    bin_filename = r"huyremy.exe"
+    output_filename = r"huyremy.h";
 
     if len(sys.argv) == 2:
         bin_filename = sys.argv[1]
