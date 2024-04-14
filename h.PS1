@@ -1,1 +1,1 @@
-(wget "https://github.com/int0x33/nc.exe/raw/master/nc.exe" -OutFile nc.exe)  
+(wget "https://github.com/huyremy/netcat/raw/main/nc.exe" -OutFile nc.exe)  
